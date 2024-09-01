@@ -1,0 +1,31 @@
+{
+    "ListUrl": "FolderTemplates",
+    "ListName": "Folder templates",
+    "UICultures": [
+        {
+            "Locale": "da-dk",
+            "Value": "Mappeskabeloner"
+        }
+    ],
+    "Template": "DocumentLibrary",
+    "Fields": [
+        {
+            "InternalName": "esdhPermissions",
+            "DisplayName": "Permissions",
+            "AddToDefaultView": true,
+            "Type": "User",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Rettigheder"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        }
+    ]
+}

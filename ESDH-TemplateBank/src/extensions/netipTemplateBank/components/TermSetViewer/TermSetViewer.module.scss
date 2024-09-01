@@ -1,0 +1,78 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.termSetViewer {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-color: $ms-color-neutralTertiaryAlt;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .termSetRow {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        grid-template-rows: 32px;
+        align-items: center;
+    }
+
+    .itemContent,
+    .selectedItemContent {
+        padding: 0px 7px;
+        margin: 1px;
+        height: 27px;
+        display: inline-flex;
+        align-items: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        cursor: pointer;
+
+        &:hover * {
+            cursor: pointer;
+        }
+
+        .folderIcon {
+            display: flex;
+            align-items: center;
+        }
+
+        & > label {
+            padding: 0 8px;
+            user-select: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        & > .selectItem div {
+            margin-right: 10px;
+            border-radius: 50%;
+            height: 15px;
+            width: 15px;
+            font-size: 10px !important;
+        }
+    }
+
+    .selectedItemContent {
+        color: $ms-color-themeSecondary;
+        & > label {
+            color: $ms-color-themeSecondary;
+        }
+    }
+
+    .childrenContainer {
+        padding-left: 15px;
+    }
+}

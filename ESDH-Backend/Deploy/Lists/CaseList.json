@@ -1,0 +1,327 @@
+{
+  "ListUrl": "Lists/Sager",
+  "ListName": "Sager",
+  "UICultures": [
+    {
+      "Locale": "en-US",
+      "Value": "Cases"
+    },
+    {
+      "Locale": "en-GB",
+      "Value": "Cases"
+    },
+    {
+      "Locale": "da-DK",
+      "Value": "Sager"
+    }
+  ],
+  "Template": 100,
+  "Settings": [
+    {
+      "Name": "EnableAttachments",
+      "Value": false
+    }
+  ],
+  "Fields": [
+    {
+      "InternalName": "Title",
+      "DisplayName": "Title",
+      "AddToDefaultView": false,
+      "Type": "Text",
+      "Settings": [
+        {
+          "Name": "Hidden",
+          "Value": true
+        },
+        {
+          "Name": "DefaultValue",
+          "Value": "Case"
+        }
+      ]
+    },
+    {
+      "InternalName": "wpSite",
+      "DisplayName": "Site",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Side"
+        }
+      ],
+      "Settings": [
+        {
+          "Name": "DefaultValue",
+          "Value": "New"
+        }
+      ]
+    },
+    {
+      "InternalName": "esdhNumber",
+      "DisplayName": "Number",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Nummer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhName",
+      "DisplayName": "Name",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Navn"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhDescription",
+      "DisplayName": "Description",
+      "AddToDefaultView": true,
+      "Type": "Note",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Beskrivelse"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhResponsible",
+      "DisplayName": "Responsible",
+      "AddToDefaultView": true,
+      "Type": "User",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Ansvarlig"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingName",
+      "DisplayName": "Billing name",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsnavn"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingName2",
+      "DisplayName": "Billing name 2",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsnavn 2"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingAddress",
+      "DisplayName": "Billing address",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsadresse"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingAddress2",
+      "DisplayName": "Billing address 2",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsadresse 2"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingCity",
+      "DisplayName": "Billing city",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsby"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhAmt",
+      "DisplayName": "Amt",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Amt"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingPostalCode",
+      "DisplayName": "Billing postal code",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringspostnummer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhBillingRegionCode",
+      "DisplayName": "Billing region code",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringsregionkode"
+        }
+      ],
+      "Required": false
+    },
+    {
+      "InternalName": "esdhBillingContact",
+      "DisplayName": "Billing contact",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Faktureringskontakt"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhStartDate",
+      "DisplayName": "Start date",
+      "AddToDefaultView": true,
+      "Type": "DateTime",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Startdato"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhEndDate",
+      "DisplayName": "End date",
+      "AddToDefaultView": true,
+      "Type": "DateTime",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Slutdato"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhActive",
+      "DisplayName": "Active",
+      "AddToDefaultView": true,
+      "Type": "Boolean",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Aktiv"
+        }
+      ],
+      "Settings": [
+        {
+          "Name": "DefaultValue",
+          "Value": "1"
+        }
+      ]
+    },
+    {
+      "InternalName": "esdhCustomerNumber",
+      "DisplayName": "Customer Number",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Kundenummer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhSiteStatus",
+      "DisplayName": "Site Status",
+      "AddToDefaultView": true,
+      "Type": "Choice",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "value": "Sidesstatus"
+
+        }
+      ],
+      "Settings": [
+        {
+          "Name": "DefaultValue",
+          "Value": "New"
+        }
+      ],
+      "Choices": [
+        "New",
+        "Queued",
+        "Processing",
+        "Completed"
+      ]
+    }
+    //{
+    //  "InternalName": "esdhCustomer",
+    //  "DisplayName": "Customer",
+    //  "AddToDefaultView": true,
+    //  "Type": "Lookup",
+    //  "UICultures": [
+    //    {
+    //      "Locale": "da-dk",
+    //      "Value": "Kunde"
+    //    }
+    //  ],
+    //  "Settings": [],
+    //  "LookupListName": "Customers",
+    //  "LookupField": "ID"
+    //}
+  ]
+}

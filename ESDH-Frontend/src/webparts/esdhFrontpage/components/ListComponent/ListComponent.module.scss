@@ -1,0 +1,19 @@
+.listComponent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .list {
+        overflow: hidden;
+        // height: 100%;
+        // position: relative;
+        flex: 1;
+
+        & > div {
+            height: 100%;
+        }
+    }
+}

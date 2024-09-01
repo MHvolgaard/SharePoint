@@ -1,0 +1,26 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.sidePanel {
+    width: 350px;
+    min-width: 350px;
+    border-left: 1px solid;
+    border-color: $ms-color-neutralTertiaryAlt;
+    background-color: $ms-color-neutralLight;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    & .panelHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+
+        & > i {
+            cursor: pointer;
+            font-size: 1.1em;
+            padding: 3px;
+        }
+    }
+}

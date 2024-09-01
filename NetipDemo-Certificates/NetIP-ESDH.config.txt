@@ -1,0 +1,38 @@
+
+Certificate private key: i:E7HJ52kp>->.!c!Cjoxl0?Z]Wg0=
+
+=========================
+
+<appSettings>
+    ...
+
+    <add key="AAD:TenantId" value="908fb18c-48ac-4465-928b-8d1957284285" />
+    <add key="AAD:ClientId" value="68b4b548-5bd0-4772-bc39-c67161b76af7" />   
+    <add key="KeyVault:Uri" value="https://netip-esdh.vault.azure.net/" />
+    <add key="KeyVault:CertificateName" value="NetIP-ESDH" />
+    <add key="SPO:SiteUrl" value="https://netipdemo-admin.sharepoint.com" />
+    <add key="SPO:SiteUrl" value="https://netipdemo.sharepoint.com/sites/ESDHControlPanel" />
+    <add key="SPO:DefaultSiteOwner" value="mhv@netIPDemo.netip.dk" />
+</appSettings>
+
+=========================
+
+"Values": {
+    ....
+        
+    "AAD:TenantId": "908fb18c-48ac-4465-928b-8d1957284285",
+    "AAD:ClientId": "68b4b548-5bd0-4772-bc39-c67161b76af7",
+    "KeyVault:Uri": "https://netip-esdh.vault.azure.net/",
+    "KeyVault:CertificateName": "NetIP-ESDH",
+    "SPO:AdminSiteUrl": "https://netipdemo-admin.sharepoint.com",
+    "SPO:ControlSiteUrl": "https://netipdemo.sharepoint.com/sites/ESDHControlPanel",
+    "SPO:DefaultSiteOwner": "mhv@netIPDemo.netip.dk"
+}
+
+=========================
+
+$CerPW = ConvertTo-SecureString -String "i:E7HJ52kp>->.!c!Cjoxl0?Z]Wg0=" -AsPlainText -Force 
+$CertLocation = "$(Get-Location)\\Certificates\NetIP-ESDH.pfx"
+
+Connect-PnPOnline -CertificatePath $CertLocation -CertificatePassword $CerPW -Tenant "netIPDemo.netip.dk" -ClientId "68b4b548-5bd0-4772-bc39-c67161b76af7" -Url ""
+

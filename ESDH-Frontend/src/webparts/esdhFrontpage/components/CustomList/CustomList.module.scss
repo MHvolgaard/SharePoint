@@ -1,0 +1,109 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.customList {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    overflow: auto;
+
+    .header {
+        width: 100%;
+        min-width: fit-content;
+        user-select: none;
+        border-bottom: 1px solid;
+        border-bottom-color: $ms-color-neutralLighter;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background: $ms-color-white;
+
+        & * {
+            user-select: none;
+        }
+
+        &:hover {
+            cursor: default;
+        }
+
+        & .row {
+            border-width: 0;
+            padding: 0 10px;
+        }
+
+        & .column>label {
+            font-weight: 500;
+        }
+    }
+
+    .container {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex: 1;
+
+        & .row {
+            &:hover {
+                background-color: $ms-color-neutralLighter;
+            }
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        min-width: fit-content;
+        padding: 10px;
+        gap: 10px;
+        border: solid;
+        border-color: $ms-color-neutralLighter;
+        border-width: 1px 0 0;
+        height: 42px;
+
+        &:first-child {
+            border-top-width: 0px;
+        }
+    }
+
+    .column {
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-flex;
+        height: 100%;
+        cursor: inherit;
+        padding: 0px 8px 0px 12px;
+        align-items: center;
+        text-transform: capitalize;
+
+        &[data-sortable="true"] {
+            cursor: pointer;
+            // margin: -3px 0;
+            // padding: 3px 0;
+
+            &:hover,
+            &:hover .sortArrow,
+            &:hover label {
+                background-color: $ms-color-neutralLighter;
+            }
+
+            .sortArrow {
+                display: flex;
+                align-items: center;
+                padding-left: 4px;
+            }
+        }
+
+        & label {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: inherit;
+            font-weight: normal;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.esdhAdvisors {
+  width: 100%;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 15px;
+  }
+
+  .header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .advisor {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    .image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 1px 1px 5px -3px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+
+      .title,
+      .subtext {
+        margin: 0;
+        padding: 0;
+      }
+
+      .title {
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+      .subtext {
+        color: $ms-color-neutralSecondary;
+      }
+    }
+  }
+}

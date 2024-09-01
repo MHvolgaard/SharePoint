@@ -1,0 +1,40 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.listHeaderColumn {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-flex;
+    width: 100%;
+    cursor: inherit;
+
+    &[data-sortable="true"] {
+        cursor: pointer;
+        padding: 3px 0;
+
+        &:hover .sortArrow,
+        &:hover label {
+            color: $ms-color-black;
+        }
+
+        .sortArrow {
+            color: $ms-color-black;
+            display: flex;
+            align-items: center;
+            padding-right: 4px;
+        }
+    }
+
+    & label {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: inherit;
+        margin-right: 10px;
+    }
+}
+
+.listHeaderColumn:first-child {
+    padding-left: 10px;
+}

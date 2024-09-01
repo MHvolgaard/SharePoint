@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Penneo"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties=""
+        ComponentId="4b292bc3-e098-45ae-84f7-bda557a626f5" />
+    <ClientSideComponentInstance
+        Title="NetipTemplateBank"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties=""
+        ComponentId="34ca1745-0b6b-415a-8287-ae252f59182c" />
+</Elements>

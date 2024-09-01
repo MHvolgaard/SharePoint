@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NetIP-ESDH Template Bank",
+    "id": "8d2db3b5-9892-40d5-8c3f-042bfde746a5",
+    "version": "1.0.0.11",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NetIP-ESDH Template Bank"
+      },
+      "longDescription": {
+        "default": "NetIP-ESDH Template Bank"
+      },
+      "screenshotPaths": [
+        
+      ],
+      "videoUrl": "",
+      "categories": [
+        
+      ]
+    },
+    "features": [
+      {
+        "title": "NetIP-ESDH Template Bank",
+        "description": "NetIP-ESDH Template Bank",
+        "id": "29e99137-d730-4d07-974b-1dd1bfb786d6",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/netip-esdh-template-bank.sppkg"
+  }
+}

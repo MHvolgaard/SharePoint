@@ -1,0 +1,31 @@
+{
+  "ListUrl": "FolderTemplates",
+  "ListName": "Folder templates",
+  "UICultures": [
+    {
+      "Locale": "da-dk",
+      "Value": "Mappeskabeloner"
+    }
+  ],
+  "Template": 101,
+  "Permissions": {
+    "BreakRoleInheritance": true,
+    "CopyRoleAssignments": true,
+    "Roles": []
+  },
+  "Fields": [
+    {
+      "InternalName": "esdhPermissions",
+      "DisplayName": "Permissions",
+      "AddToDefaultView": true,
+      "Type": "User",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Rettigheder"
+        }
+      ],
+      "Settings": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NetIP-ESDH-UI",
+    "id": "a981e1b2-e186-4a14-9b13-5331e36946e2",
+    "version": "1.0.0.26",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "TermStore.Read.All"
+      }
+    ],
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NetIP-ESDH-UI"
+      },
+      "longDescription": {
+        "default": "NetIP-ESDH-UI"
+      },
+      "screenshotPaths": [
+        
+      ],
+      "videoUrl": "",
+      "categories": [
+        
+      ]
+    },
+    "features": [
+      {
+        "title": "NetIP-ESDH-UI",
+        "description": "NetIP-ESDH-UI",
+        "id": "aaef7bf3-ab64-486e-9742-5fb37183ac39",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/netip-esdh-ui.sppkg"
+  }
+}

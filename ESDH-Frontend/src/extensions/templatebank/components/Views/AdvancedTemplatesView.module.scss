@@ -1,0 +1,71 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.advancedTemplatesView {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .mainColumn {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+        .listTermSets,
+        .listFiles {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-width: 400px;
+            max-width: 400px;
+            margin: 20px 30px 30px;
+        }
+
+        .listFiles {
+            .ListMenu {
+                display: flex;
+                justify-content: space-between;
+                max-height: 48px;
+                padding-bottom: 10px;
+                width: 100%;
+
+                & .searchbox {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+
+        & label {
+            padding-left: 8px;
+            font-size: 18px;
+        }
+
+        & .searchbox {
+            width: 100%;
+        }
+    }
+
+    .divider {
+        border-left: 1px solid;
+        border-color: $ms-color-neutralTertiaryAlt;
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        width: 0px;
+    }
+}

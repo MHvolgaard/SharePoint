@@ -1,0 +1,86 @@
+{
+    "ListUrl": "Templates",
+    "ListName": "Templates",
+    "UICultures": [
+        {
+            "Locale": "da-dk",
+            "Value": "Skabeloner"
+        }
+    ],
+    "Template": "DocumentLibrary",
+    "Permissions": {
+        "BreakRoleInheritance": true,
+        "CopyRoleAssignments": true,
+        "Roles": [
+            {
+                "Principal": "Everyone except external users",
+                "RoleDefinition": "Read"
+            }
+        ]
+    },
+    "Fields": [
+        {
+            "InternalName": "esdhActive",
+            "DisplayName": "Active",
+            "AddToDefaultView": true,
+            "Type": "Boolean",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Aktiv"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "DefaultValue",
+                    "Value": "1"
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCategory",
+            "DisplayName": "Category",
+            "AddToDefaultView": true,
+            "Type": "MultiChoice",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Kategori"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ],
+            "Choices": [
+                "Template",
+                "Form",
+                "Document"
+            ]
+        },
+        {
+            "InternalName": "esdhGuidance",
+            "DisplayName": "Guidance",
+            "AddToDefaultView": true,
+            "Type": "Note",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Vejledning"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        }
+    ]
+}

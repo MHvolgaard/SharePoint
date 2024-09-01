@@ -1,0 +1,33 @@
+.mount {
+    font-size: inherit;
+}
+
+.unmount {
+    animation: hide 2s linear;
+
+    &:hover {
+        animation-play-state: paused;
+        animation: 0;
+    }
+}
+
+.messageBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+
+}
+
+
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

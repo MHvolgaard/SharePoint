@@ -1,0 +1,92 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.fofElement {
+    height: 40px;
+    display: grid;
+    grid-template-columns: 48px 40px auto 100px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: $ms-color-neutralLighter;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: $ms-color-neutralLighter;
+        cursor: pointer;
+
+        & .iconContainer {
+            visibility: visible;
+        }
+    }
+
+    & > *:nth-child(3) {
+        max-width: 100%;
+        overflow: hidden;
+        padding-right: 10px;
+    }
+
+    &[data-selected="true"] {
+        background-color: $ms-color-neutralLight;
+        border-color: $ms-color-white;
+
+        & label {
+            font-weight: 600;
+        }
+
+        &:hover {
+            background-color: $ms-color-neutralQuaternaryAlt;
+        }
+
+        & .iconContainer {
+            border-color: $ms-color-white;
+            border-width: 2px;
+            background-color: $ms-color-themePrimary;
+            visibility: visible;
+
+            & i {
+                display: block;
+                color: $ms-color-white;
+            }
+        }
+    }
+
+    & label {
+        overflow: hidden;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 400;
+        text-indent: 5px;
+
+        &:hover {
+            cursor: pointer;
+            // text-decoration: underline;
+        }
+    }
+
+    .iconContainer {
+        height: 18px;
+        width: 18px;
+        margin: 0 auto;
+        border: 1px solid;
+        border-color: $ms-color-neutralSecondary;
+        border-radius: 50%;
+        background-color: $ms-color-white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+
+        & > i {
+            font-size: 16px;
+            margin-right: -2px;
+            margin-top: -2px;
+            display: none;
+            color: $ms-color-neutralSecondary;
+        }
+
+        &:hover i {
+            display: block;
+        }
+    }
+}

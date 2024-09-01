@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NetipTemplateBank"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="59f6160f-09c7-4ff2-9ccf-20cc9be38b39"
+        ClientSideComponentProperties="">
+    </CustomAction>
+</Elements>

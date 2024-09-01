@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://netipdemo.sharepoint.com/sites/ESDHCustomer_19/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "59f6160f-09c7-4ff2-9ccf-20cc9be38b39": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    },
+    "netipTemplateBank": {
+      "pageUrl": "https://netipdemo.sharepoint.com/sites/ESDHCustomer_19/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "59f6160f-09c7-4ff2-9ccf-20cc9be38b39": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    }
+  },
+  "initialPage": "https://{tenantDomain}/_layouts/workbench.aspx"
+}

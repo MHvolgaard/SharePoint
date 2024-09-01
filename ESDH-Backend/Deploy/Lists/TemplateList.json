@@ -1,0 +1,69 @@
+{
+  "ListUrl": "Templates",
+  "ListName": "Templates",
+  "UICultures": [
+    {
+      "Locale": "da-dk",
+      "Value": "Skabeloner"
+    }
+  ],
+  "Template": 101,
+  //"Permissions": {
+  //  "BreakRoleInheritance": true,
+  //  "CopyRoleAssignments": true,
+  //  "Roles": [
+  //    {
+  //      "Principal": "Everyone except external users",
+  //      "RoleDefinition": "Read"
+  //    }
+  //  ]
+  //},
+  "Fields": [
+    {
+      "InternalName": "esdhRequiredInTemplateSets",
+      "DisplayName": "Required in Template Sets",
+      "AddToDefaultView": true,
+      "Type": "TaxonomyFieldTypeMulti",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Påkrævet i skabelonsæt"
+        }
+      ],
+      "Settings": [],
+      "TermSetName": "Netip-ESDH template sets"
+    },
+    {
+      "InternalName": "esdhTemplateSets",
+      "DisplayName": "Template Sets",
+      "AddToDefaultView": true,
+      "Type": "TaxonomyFieldTypeMulti",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Skabelonsæt"
+        }
+      ],
+      "Settings": [],
+      "TermSetName": "Netip-ESDH template sets"
+    },
+    {
+      "InternalName": "esdhActive",
+      "DisplayName": "Active",
+      "AddToDefaultView": true,
+      "Type": "Boolean",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Aktiv"
+        }
+      ],
+      "Settings": [
+        {
+          "Name": "DefaultValue",
+          "Value": "1"
+        }
+      ]
+    }
+  ]
+}

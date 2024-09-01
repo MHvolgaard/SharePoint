@@ -1,0 +1,51 @@
+{
+    "ListUrl": "Lists/PermissionsUpdateTasks",
+    "ListName": "Permissions update tasks",
+    "UICultures": [
+        {
+            "Locale": "da-dk",
+            "Value": "Tilladelsesopdateringsopgaver"
+        }
+    ],
+    "Template": "GenericList",
+    "Fields": [
+        {
+            "InternalName": "Title",
+            "DisplayName": "Title",
+            "AddToDefaultView": false,
+            "Type": "Text",
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": true
+                },
+                {
+                    "Name": "DefaultValue",
+                    "Value": "Permission update task"
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCustomerNumber",
+            "DisplayName": "Customer number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Kundenummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": true
+                }
+            ]
+        }
+    ]
+}

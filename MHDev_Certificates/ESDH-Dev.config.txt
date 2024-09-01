@@ -1,0 +1,39 @@
+
+Certificate private key: 6TdKHxlw=[=u+hM|XH|x}$lKzb:&1U
+
+=========================
+
+<appSettings>
+    ...
+
+    
+    <add key="AAD:TenantId" value="df64d379-ce22-406d-9374-ef6e753a34db" />
+    <add key="AAD:ClientId" value="167d40a6-dc50-4da6-8dca-595224aa2be9" />
+    <add key="AAD:ServiceAccount" value="" />    
+    <add key="KeyVault:Uri" value="https://esdh-dev-vault.vault.azure.net/certificates/ESDH-Dev/71d17fbad10e49e989cb2b9075638b1e" />
+    <add key="KeyVault:CertificateName" value="" />
+    <add key="KeyVault:ServiceAccountPassword" value="" />
+    <add key="SPO:SiteUrl" value="" />
+</appSettings>
+
+=========================
+
+"Values": {
+    ....
+        
+    "AAD:TenantId": "df64d379-ce22-406d-9374-ef6e753a34db",
+    "AAD:ClientId": "167d40a6-dc50-4da6-8dca-595224aa2be9",
+    "AAD:ServiceAccount": "",
+    "KeyVault:Uri": "https://esdh-dev-vault.vault.azure.net/certificates/ESDH-Dev/71d17fbad10e49e989cb2b9075638b1e",
+    "KeyVault:CertificateName": "",
+    "KeyVault:ServiceAccountPassword": "",
+    "SPO:SiteUrl": "",
+}
+
+=========================
+
+$CerPW = ConvertTo-SecureString -String "6TdKHxlw=[=u+hM|XH|x}`$lKzb:&1U" -AsPlainText -Force 
+$CertLocation = "$(Get-Location)\\Certificates\ESDH-Dev.pfx"
+
+Connect-PnPOnline -CertificatePath $CertLocation -CertificatePassword $CerPW -Tenant "mhipdev.onmicrosoft.com" -ClientId "167d40a6-dc50-4da6-8dca-595224aa2be9" -Url ""
+

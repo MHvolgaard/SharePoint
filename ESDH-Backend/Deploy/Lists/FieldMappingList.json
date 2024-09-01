@@ -1,0 +1,47 @@
+{
+  "ListUrl": "Lists/FieldMapping",
+  "ListName": "Field Mapping",
+  "UICultures": [
+    {
+      "Locale": "da-dk",
+      "Value": "Feltmapping"
+    }
+  ],
+  "Template": 100,
+  "Fields": [
+    {
+      "InternalName": "Title",
+      "DisplayName": "Title",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhSource",
+      "DisplayName": "Source",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Kilde"
+
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhFieldName",
+      "DisplayName": "Field Name",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Felt Navn"
+        }
+      ],
+      "Settings": []
+    }
+  ]
+}

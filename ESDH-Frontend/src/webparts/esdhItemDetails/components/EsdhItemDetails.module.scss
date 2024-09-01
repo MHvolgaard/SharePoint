@@ -1,0 +1,92 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.esdhItemMetadata {
+  color: $ms-color-black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .titleContainer {
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid;
+    border-color: $ms-color-neutralLight;
+    box-sizing: border-box;
+
+    .title {
+      user-select: none;
+      box-sizing: border-box;
+      width: fit-content;
+      position: relative;
+      font-size: 14px;
+      font-weight: 600;
+      height: 100%;
+      margin-left: 18px;
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+
+      &:before {
+        content: '';
+        display: block;
+        left: 8px;
+        right: 8px;
+        bottom: -2px;
+        height: 2px;
+        background-color: $ms-color-themePrimary;
+        position: absolute;
+        transition: left 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s, right 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s;
+      }
+
+      &:hover {
+        background-color: $ms-color-neutralLighter;
+
+        &:before {
+          left: 0px;
+          right: 0px;
+        }
+      }
+    }
+  }
+
+  .metadataContainer {
+    padding-left: 30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .metadataRow {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      break-inside: avoid;
+
+      .metadataLabel {
+        font-size: 12px;
+        color: $ms-color-neutralSecondary;
+      }
+
+      .metadataValueNone {
+        font-size: 14px;
+        color: $ms-color-neutralTertiary;
+      }
+
+      .metadataValue {
+        font-size: 14px;
+        color: $ms-color-black;
+
+      }
+    }
+  }
+}

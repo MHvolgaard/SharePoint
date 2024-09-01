@@ -1,0 +1,280 @@
+{
+    "ListUrl": "Lists/Employees",
+    "ListName": "Employees",
+    "UICultures": [
+        {
+            "Locale": "da-dk",
+            "Value": "Medarbejdere"
+        }
+    ],
+    "Template": "GenericList",
+    "Fields": [
+        {
+            "InternalName": "Title",
+            "DisplayName": "Title",
+            "AddToDefaultView": false,
+            "Type": "Text",
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": true
+                },
+                {
+                    "Name": "DefaultValue",
+                    "Value": "Employee"
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhNumber",
+            "DisplayName": "Number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Nummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": true
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhName",
+            "DisplayName": "Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Navn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": true
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPosition",
+            "DisplayName": "Position",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Stilling"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEducation",
+            "DisplayName": "Education",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Uddannelse"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhGlobalDimension1Code",
+            "DisplayName": "Global Dimension 1 Code",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Global Dimension 1 Code"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEmail",
+            "DisplayName": "Email",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Email"
+                }
+            ],
+            "Required": false
+        },
+        {
+            "InternalName": "esdhPhone",
+            "DisplayName": "Phone",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telefon"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPhone2",
+            "DisplayName": "Phone 2",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telefon 2"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhMobilePhone",
+            "DisplayName": "Mobile Phone",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Mobiltelefon"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPhone3",
+            "DisplayName": "Phone 3",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telefon 3"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPhone4",
+            "DisplayName": "Phone 4",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telefon 4"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSuperior",
+            "DisplayName": "Superior",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Overordnet"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEmployee",
+            "DisplayName": "Employee",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Medarbejder"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhActive",
+            "DisplayName": "Active",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Aktiv"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+  "ListUrl": "Lists/Medarbejdere",
+  "ListName": "Medarbejdere",
+  "UICultures": [
+    {
+      "Locale": "en-US",
+      "Value": "Employees"
+    },
+    {
+      "Locale": "en-GB",
+      "Value": "Employees"
+    },
+    {
+      "Locale": "da-dk",
+      "Value": "Medarbejdere"
+    }
+  ],
+  "Template": 100,
+  "Fields": [
+    {
+      "InternalName": "Title",
+      "DisplayName": "Title",
+      "AddToDefaultView": false,
+      "Type": "Text",
+      "Settings": [
+
+        {
+          "Name": "Hidden",
+          "Value": true
+        },
+        {
+          "Name": "DefaultValue",
+          "Value": "Employee"
+        }
+      ]
+    },
+    {
+      "InternalName": "esdhNumber",
+      "DisplayName": "Number",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Nummer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhName",
+      "DisplayName": "Name",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Navn"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhPosition",
+      "DisplayName": "Position",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Stilling"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhEducation",
+      "DisplayName": "Education",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Uddannelse"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhGlobalDimension1Code",
+      "DisplayName": "Global Dimension 1 Code",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Global Dimension 1 Code"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhEmail",
+      "DisplayName": "Email",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Email"
+        }
+      ],
+      "Required": false
+    },
+    {
+      "InternalName": "esdhPhone",
+      "DisplayName": "Phone",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Telefon"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhPhone2",
+      "DisplayName": "Phone 2",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Telefon 2"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhMobilePhone",
+      "DisplayName": "Mobile Phone",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Mobiltelefon"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhPhone3",
+      "DisplayName": "Phone 3",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Telefon 3"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhPhone4",
+      "DisplayName": "Phone 4",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Telefon 4"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhSuperior",
+      "DisplayName": "Superior",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Overordnet"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhEmployee",
+      "DisplayName": "Employee",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Medarbejder"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhActive",
+      "DisplayName": "Active",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Aktiv"
+        }
+      ],
+      "Settings": []
+    }
+  ]
+}

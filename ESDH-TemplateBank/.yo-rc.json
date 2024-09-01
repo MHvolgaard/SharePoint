@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "netip-esdh",
+    "libraryId": "8d2db3b5-9892-40d5-8c3f-042bfde746a5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Netip-ESDH",
+    "solutionShortDescription": "Netip-ESDH description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

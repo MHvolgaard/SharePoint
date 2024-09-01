@@ -1,0 +1,21 @@
+{
+  "Values": {
+    "SPO:AdminSiteUrl": "https://fjordland-admin.sharepoint.com",
+    "SPO:ESDHSiteUrl": "https://fjordland.sharepoint.com/sites/ESDH",
+    "SPO:DefaultSiteOwner": "admin@fjordland.onmicrosoft.com",
+    "SPO:CustomerListGuid": "801f989b-7c85-4e63-aa31-94d746f06daf",
+    "SPO:CaseListGuid": "31efabd3-fd32-49dc-bacd-d87d7b3d0465",
+    "SPO:EmployeeListGuid": "31d0d302-0d0f-451c-b765-f3fa44203093",
+    "SPO:TemplateLibraryGuid": "584ea73a-fbbc-42c7-bc61-3039f9a8715a",
+    "SPO:FolderTemplateLibraryGuid": "6bbece57-fef3-4f29-908a-0de5b0cca688",
+    "SPO:FieldMappingListGuid": "8ed18007-3242-4b32-aaa6-f108625cb34e",
+    "AAD:TenantId": "TODO",
+    "AAD:ClientId": "TODO",
+    "KeyVault:Uri": "TODO",
+    "KeyVault:CertificateName": "TODO",
+    "SPO:AdminGroup": "TODO",
+    "SPO:MemberGroup": "TODO",
+    "SPO:ThemeName": "TODO",
+    "SPO:SiteLogoUrl": "TODO"
+  }
+}

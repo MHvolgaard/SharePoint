@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "esdh-item-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/esdhItemDetails/EsdhItemDetailsWebPart.js",
+          "manifest": "./src/webparts/esdhItemDetails/EsdhItemDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "esdh-frontpage-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/esdhFrontpage/EsdhFrontpageWebPart.js",
+          "manifest": "./src/webparts/esdhFrontpage/EsdhFrontpageWebPart.manifest.json"
+        }
+      ]
+    },
+    "esdh-advisors-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/esdhAdvisors/EsdhAdvisorsWebPart.js",
+          "manifest": "./src/webparts/esdhAdvisors/EsdhAdvisorsWebPart.manifest.json"
+        }
+      ]
+    },
+    "penneo-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/penneo/PenneoCommandSet.js",
+          "manifest": "./src/extensions/penneo/PenneoCommandSet.manifest.json"
+        }
+      ]
+    },
+    "templatebank-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/templatebank/TemplatebankCommandSet.js",
+          "manifest": "./src/extensions/templatebank/TemplatebankCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EsdhItemDetailsWebPartStrings": "lib/webparts/esdhItemDetails/loc/{locale}.js",
+    "EsdhFrontpageWebPartStrings": "lib/webparts/esdhFrontpage/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "EsdhAdvisorsWebPartStrings": "lib/webparts/esdhAdvisors/loc/{locale}.js",
+    "PenneoCommandSetStrings": "lib/extensions/penneo/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "TemplatebankCommandSetStrings": "lib/extensions/templatebank/loc/{locale}.js"
+  }
+}

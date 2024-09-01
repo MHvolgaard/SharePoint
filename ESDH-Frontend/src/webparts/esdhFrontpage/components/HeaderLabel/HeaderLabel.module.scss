@@ -1,0 +1,17 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.header {
+    white-space: nowrap;
+
+    @for $i from 1 through 6 {
+        &.h#{$i} {
+            font-size: 28px - 2 * $i;
+            font-weight: 600;
+            margin: 0;
+
+            &.disabled {
+                color: $ms-color-neutralTertiary;
+            }
+        }
+    }
+}

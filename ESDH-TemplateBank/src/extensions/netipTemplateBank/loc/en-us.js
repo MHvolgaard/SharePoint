@@ -1,0 +1,31 @@
+define([], function() {
+  return {
+    advanced: "Advanced",
+    create: "Create",
+    createAndOpen: "Create and open",
+    createSelected: "Create Selected",
+    creationDetailsTitle: "Creation Details",
+    deselectAll: "Deselect all",
+    esdhTitle: "Electronic case and document management",
+    file: "File",
+    filename: "Filename",
+    loadingText: "Loading...",
+    modified: "Modified",
+    newFilename: "New filename",
+    preview: "Preview",
+    previewFile: "Preview file",
+    saveLocation: "Save location",
+    search: "Search",
+    searchCategory: "Search Category",
+    selectAll: "Select all",
+    selectedCategoryTemplatesTitle: "Selected Category Templates",
+    selectedCategory: "Selected category",
+    selectedTemplatesTotal: "Selected Templates Total",
+    settings: "Settings",
+    simple: "Simple",
+    templateCategoriesTitle: "Template Categories",
+    version: "Version",
+    "Command1": "Command 1",
+    "Command2": "Command 2"
+  }
+});

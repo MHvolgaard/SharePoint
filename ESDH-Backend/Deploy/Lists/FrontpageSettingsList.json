@@ -1,0 +1,56 @@
+{
+  "ListUrl": "Lists/FrontpageSettings",
+  "ListName": "Frontpage Settings",
+  "UICultures": [
+    {
+      "Locale": "da-dk",
+      "Value": "Forsideindstillinger"
+    }
+  ],
+  "Template": 100,
+  "Settings": [
+    {
+      "Name": "ReadSecurity",
+      "Value": 2
+    },
+    {
+      "Name": "WriteSecurity",
+      "Value": 2
+    },
+    {
+      "Name": "Hidden",
+      "Value": true
+    }
+  ],
+  "Fields": [
+    {
+      "InternalName": "Title",
+      "DisplayName": "Title",
+      "AddToDefaultView": false,
+      "Type": "Text",
+      "Settings": [
+        {
+          "Name": "Hidden",
+          "Value": true
+        },
+        {
+          "Name": "DefaultValue",
+          "Value": "Frontpage Setting"
+        }
+      ]
+    },
+    {
+      "InternalName": "esdhJsonSettings",
+      "DisplayName": "JSON Settings",
+      "AddToDefaultView": true,
+      "Type": "Note",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "JSON Indstillinger"
+        }
+      ],
+      "Settings": []
+    }
+  ]
+}

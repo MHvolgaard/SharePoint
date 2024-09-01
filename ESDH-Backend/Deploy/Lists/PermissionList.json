@@ -1,0 +1,68 @@
+{
+  "ListUrl": "Lists/Permissions",
+  "ListName": "Permissions",
+  "UICultures": [
+    {
+      "Locale": "da-dk",
+      "Value": "Tilladelser"
+    }
+  ],
+  "Template": 100,
+  "Fields": [
+    {
+      "InternalName": "Title",
+      "DisplayName": "Title",
+      "AddToDefaultView": false,
+      "Type": "Text",
+      "Settings": [
+        {
+          "Name": "Hidden",
+          "Value": true
+        },
+        {
+          "Name": "DefaultValue",
+          "Value": "Permission"
+        }
+      ]
+    },
+    {
+      "InternalName": "esdhCustomerNumber",
+      "DisplayName": "Customer number",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Kundenummer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhInitials",
+      "DisplayName": "Initials",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Initialer"
+        }
+      ],
+      "Settings": []
+    },
+    {
+      "InternalName": "esdhArea",
+      "DisplayName": "Area",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [
+        {
+          "Locale": "da-dk",
+          "Value": "Område"
+        }
+      ],
+      "Settings": []
+    }
+  ]
+}

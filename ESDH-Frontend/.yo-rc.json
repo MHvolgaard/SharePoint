@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "esdh-frontend",
+    "libraryId": "a981e1b2-e186-4a14-9b13-5331e36946e2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ESDH-Frontend",
+    "solutionShortDescription": "ESDH-Frontend description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

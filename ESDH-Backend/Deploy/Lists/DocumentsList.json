@@ -1,0 +1,22 @@
+{
+  "ListUrl": "Shared Documents",
+  "ListName": "Documents",
+  "UICultures": [],
+  "Template": 101,
+  "Settings": [],
+  "Fields": [
+    {
+      "InternalName": "esdhPenneoStatus",
+      "DisplayName": "Penneo Status",
+      "AddToDefaultView": true,
+      "Type": "Text",
+      "UICultures": [],
+      "Settings": [
+        {
+          "Name": "Hidden",
+          "Value": true
+        }
+      ]
+    }
+  ]
+}

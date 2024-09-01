@@ -1,0 +1,164 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.fileCreationPanel {
+    display: flex;
+    flex-direction: column;
+    // justify-content: end;
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px 30px;
+    gap: 20px;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-top: 1px;
+
+        & label {
+            font-size: 18px;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // gap: 5px;
+
+        & > label {
+            white-space: nowrap;
+            font-weight: 400;
+        }
+    }
+
+    .fileInfo {
+        width: 100%;
+        // height: 100%;
+        align-items: center;
+
+        .fileInfoRow {
+            display: grid;
+            grid-template-columns: 85px auto;
+            grid-template-rows: 32px;
+            align-items: center;
+            border-bottom: 1px solid;
+            border-color: $ms-color-neutralTertiaryAlt;
+            padding: 0 5px;
+
+            & *:not(label:first-child) {
+                font-weight: 400;
+            }
+
+            &:last-child {
+                border-bottom: 0px solid;
+            }
+
+            .fileRow {
+                width: 100%;
+                gap: 7px;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                justify-content: flex-start;
+                overflow: hidden;
+
+                & label {
+                    flex: 1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    .previewBtnContainer {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .createdFileInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5px;
+        align-items: flex-start;
+
+        & > div {
+            width: 100%;
+        }
+
+        & > label:last-of-type {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+            text-align: left;
+            direction: rtl;
+        }
+    }
+
+    .creationBtns {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
+        margin: auto 0 0;
+    }
+}
+
+.divider {
+    border-bottom: 1px solid;
+    border-color: $ms-color-neutralTertiaryAlt;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 0px;
+}
+
+// .panelDescription {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+
+//     & > label {
+//         width: 80%;
+//     }
+// }
+
+.filePreviewModel {
+    & > div:not(:first-of-type:not(:last-of-type)) {
+        overflow: hidden;
+        margin-left: -3px;
+        margin-top: -3px;
+    }
+}
+
+.previewContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // margin-bottom: -22px;
+    overflow: hidden;
+
+    .previewImgContainer {
+        // height: 594px; // width and height = a4 paper   mm * 2 in pixels. Because most templates will probably be word documents.
+        // width: 420px;
+        position: relative;
+    }
+}
+
+.previewImage {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

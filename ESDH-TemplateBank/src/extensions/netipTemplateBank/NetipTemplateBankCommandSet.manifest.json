@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+  "id": "59f6160f-09c7-4ff2-9ccf-20cc9be38b39",
+  "alias": "NetipTemplateBankCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "COMMAND_1": {
+      "title": {
+        "default": "Templates"
+      },
+      "iconImageUrl": "./assets/NetIP-ESDH-TemplateBank-Icon.svg",
+      "type": "command"
+    }
+  }
+}

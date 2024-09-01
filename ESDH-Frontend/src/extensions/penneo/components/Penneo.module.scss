@@ -1,0 +1,147 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+// :global [class^="ms-Modal-scrollableContent scrollableContent-"]{
+//     overflow: hidden;
+// }
+
+.penneo {
+    min-height: 100%;
+    min-width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    // overflow: hidden;
+
+    & * {
+        box-sizing: border-box;
+
+        /* width */
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: $ms-color-neutralLighter;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: $ms-color-neutralTertiaryAlt;
+            border-radius: 5px;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: $ms-color-neutralTertiary;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 20px;
+        flex: 1;
+        min-width: 350px;
+    }
+
+    .divider {
+        border-bottom: 1px solid;
+        border-color: $ms-color-neutralTertiaryAlt;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: 0px;
+    }
+
+    .info {
+        font-weight: 400;
+        color: $ms-color-errorText;
+        margin-top: 10px;
+    }
+
+    .menuBar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        min-height: 40px;
+        max-height: 40px;
+        border-bottom: 1px solid;
+        border-color: $ms-color-neutralTertiaryAlt;
+        padding: 10px 20px;
+    }
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        height: calc(100% - 40px);
+    }
+
+    .selectedContent {
+        @extend .column;
+
+        flex: 1;
+        overflow: auto;
+    }
+}
+
+.dragOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: color-mix(in srgb, $ms-color-neutralTertiaryAlt 30%, transparent);
+    z-index: 202020;
+    outline: 3px dashed;
+    outline-color: $ms-color-themeTertiary;
+    outline-offset: -4px;
+}
+
+.menuButtons {
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+
+    & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        background-color: $ms-color-neutralLight;
+        border-radius: 2px;
+        cursor: pointer;
+
+        & label {
+            font-weight: 400;
+        }
+
+        &[data-selected="true"] {
+            background-color: $ms-color-themeSecondary;
+            cursor: auto;
+
+            & label {
+                font-weight: 600;
+                color: $ms-color-white;
+            }
+        }
+    }
+}

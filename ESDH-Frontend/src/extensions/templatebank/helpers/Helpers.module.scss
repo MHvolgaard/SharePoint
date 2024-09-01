@@ -1,0 +1,86 @@
+.icon {
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.defaultIcon {
+    background-image: url("../assets/file.svg");
+    background-size: 80%;
+    opacity: 0.5;
+    @extend .icon;
+}
+
+.pdfIcon {
+    background-image: url("../assets/pdf.svg");
+    @extend .icon;
+}
+
+.wordIcon {
+    background-image: url("../assets/docx.svg");
+    @extend .icon;
+}
+
+.powerPointIcon {
+    background-image: url("../assets/pptx.svg");
+    @extend .icon;
+}
+
+.excelIcon {
+    background-image: url("../assets/xlsx.svg");
+    @extend .icon;
+}
+
+.mailIcon {
+    background-image: url("../assets/envelope.svg");
+    filter: brightness(3);
+    background-size: 80%;
+    @extend .icon;
+}
+
+.imageIcon {
+    background-image: url("../assets/image.svg");
+    // background-image: url("../assets/photo.svg");
+    @extend .icon;
+}
+
+// .fileTypeIcon {
+//     height: 20px;
+//     width: 20px;
+//     justify-self: center;
+//     margin: 0 auto;
+// }
+
+.fileIcon {
+    @extend .icon;
+    background-image: url("../assets/file.svg");
+}
+
+.folderIcon {
+    @extend .icon;
+    background-image: url("../assets/folder.svg");
+}
+
+.docxIcon {
+    @extend .icon;
+    background-image: url("../assets/docx.svg");
+}
+
+.pptxIcon {
+    @extend .icon;
+    background-image: url("../assets/pptx.svg");
+}
+
+.xlsxIcon {
+    @extend .icon;
+    background-image: url("../assets/xlsx.svg");
+}
+
+.pdfIcon {
+    @extend .icon;
+    background-image: url("../assets/pdf.svg");
+}

@@ -1,0 +1,39 @@
+
+Certificate private key: >6{c)gg0]Oa5Og@Bn--^uc3(vas^fV
+
+=========================
+
+<appSettings>
+    ...
+
+    
+    <add key="AAD:TenantId" value="cba38807-0cc5-401c-856c-9723243dbbe1" />
+    <add key="AAD:ClientId" value="d1b1a388-61e3-41fb-9640-ad6bb80cde7b" />
+    <add key="AAD:ServiceAccount" value="" />    
+    <add key="KeyVault:Uri" value="" />
+    <add key="KeyVault:CertificateName" value="" />
+    <add key="KeyVault:ServiceAccountPassword" value="" />
+    <add key="SPO:SiteUrl" value="" />
+</appSettings>
+
+=========================
+
+"Values": {
+    ....
+        
+    "AAD:TenantId": "cba38807-0cc5-401c-856c-9723243dbbe1",
+    "AAD:ClientId": "d1b1a388-61e3-41fb-9640-ad6bb80cde7b",
+    "AAD:ServiceAccount": "",
+    "KeyVault:Uri": "",
+    "KeyVault:CertificateName": "",
+    "KeyVault:ServiceAccountPassword": "",
+    "SPO:SiteUrl": "",
+}
+
+=========================
+
+$CerPW = ConvertTo-SecureString -String ">6{c)gg0]Oa5Og@Bn--^uc3(vas^fV" -AsPlainText -Force 
+$CertLocation = "$(Get-Location)\\Certificates\Netip-ESDH.pfx"
+
+Connect-PnPOnline -CertificatePath $CertLocation -CertificatePassword $CerPW -Tenant "fjordland.dk" -ClientId "d1b1a388-61e3-41fb-9640-ad6bb80cde7b" -Url ""
+

@@ -1,0 +1,55 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.customers {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: $ms-color-neutralLight;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+        flex: 1;
+        padding: 30px;
+    }
+
+    .content {
+        padding: 25px 30px 30px;
+        border: 1px solid;
+        border-color: $ms-color-neutralLight;
+        flex: 1;
+        overflow: hidden;
+        background-color: $ms-color-white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sideBar {
+        width: 30%;
+        max-width: 600px;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        // background-color: $ms-color-neutralLighter;
+
+        & .container {
+            flex-direction: column;
+            gap: 30px;
+            padding-left: 0;
+        }
+
+        & .content {
+            border: none;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 0;
+        gap: 20px;
+    }
+}

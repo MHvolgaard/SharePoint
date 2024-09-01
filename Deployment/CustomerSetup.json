@@ -1,0 +1,945 @@
+{
+    "ListUrl": "Lists/Customers",
+    "ListName": "Customers",
+    "UICultures": [
+        {
+            "Locale": "da-DK",
+            "Value": "Kunder"
+        }
+    ],
+    "Template": "GenericList",
+    "Settings": [
+        {
+            "Name": "EnableAttachments",
+            "Value": false
+        }
+    ],
+    "Fields": [
+        {
+            "InternalName": "Title",
+            "DisplayName": "Title",
+            "AddToDefaultView": false,
+            "Type": "Text",
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": true
+                },
+                {
+                    "Name": "DefaultValue",
+                    "Value": "Customer"
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSite",
+            "DisplayName": "Site",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Side"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhNumber",
+            "DisplayName": "Number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Nummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhName",
+            "DisplayName": "Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Navn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSearchName",
+            "DisplayName": "Search Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Søgenavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhName2",
+            "DisplayName": "Name 2",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Navn 2"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhAddress1",
+            "DisplayName": "Address 1",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Adresse 1"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhAddress2",
+            "DisplayName": "Address 2",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Adresse 2"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCity",
+            "DisplayName": "City",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "By"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPhone",
+            "DisplayName": "Phone",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telefon"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhTelex",
+            "DisplayName": "Telex",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Telex"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhFax",
+            "DisplayName": "Fax",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Fax"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCVR",
+            "DisplayName": "CVR",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "CVR"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPostalCode",
+            "DisplayName": "Postal Code",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Postnummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhAmt",
+            "DisplayName": "Amt",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Amt"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEmail",
+            "DisplayName": "Email",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Email"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhType",
+            "DisplayName": "Type",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Type"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCompanyNumber",
+            "DisplayName": "Company Number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Selskabsnummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCompanyName",
+            "DisplayName": "Company Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Firmanavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhFirstName",
+            "DisplayName": "First Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Fornavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhMiddleName",
+            "DisplayName": "Middle Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Mellemnavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhLastName",
+            "DisplayName": "Last Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Efternavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPosition",
+            "DisplayName": "Position",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Stilling"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhMobilePhone",
+            "DisplayName": "Mobile Phone",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Mobiltelefon"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEmail2",
+            "DisplayName": "Email 2",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Email 2"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSpouseName",
+            "DisplayName": "Spouse Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Ægtefælle navn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCPR",
+            "DisplayName": "CPR",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "CPR"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSpouseCPR",
+            "DisplayName": "Spouse CPR",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Ægtefælle CPR"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCHR",
+            "DisplayName": "CHR",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "CHR"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhAuditorAssistant",
+            "DisplayName": "Auditor Assistant",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Revisorassistent"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhOperationalEconomist",
+            "DisplayName": "Operational Economist",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Driftsøkonom"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhCropConsultant",
+            "DisplayName": "Crop Consultant",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Planteavlskonsulent"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhEconomicConsultant",
+            "DisplayName": "Economic Consultant",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Økonomikonsulent"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhPlaceName",
+            "DisplayName": "Place Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Stednavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhTitle",
+            "DisplayName": "Title",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Titel"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhO90Number",
+            "DisplayName": "O90 Number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Ø90-nummer"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhStreetName",
+            "DisplayName": "Street Name",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Vejnavn"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhHouseNumber",
+            "DisplayName": "House Number",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Husnr."
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhStaircase",
+            "DisplayName": "Staircase",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Opgang"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhFloor",
+            "DisplayName": "Floor",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Etage"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhSideApartment",
+            "DisplayName": "Side/Apartment",
+            "AddToDefaultView": true,
+            "Type": "Text",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Side/lejlighed"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                }
+            ]
+        },
+        {
+            "InternalName": "esdhActive",
+            "DisplayName": "Active",
+            "AddToDefaultView": true,
+            "Type": "Boolean",
+            "UICultures": [
+                {
+                    "Locale": "da-dk",
+                    "Value": "Aktiv"
+                }
+            ],
+            "Settings": [
+                {
+                    "Name": "Required",
+                    "Value": false
+                },
+                {
+                    "Name": "Hidden",
+                    "Value": false
+                },
+                {
+                    "Name": "DefaultValue",
+                    "Value": "1"
+                }
+            ]
+        }
+    ]
+}

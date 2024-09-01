@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Penneo"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="4b292bc3-e098-45ae-84f7-bda557a626f5"
+        ClientSideComponentProperties="">
+    </CustomAction>
+    <CustomAction
+        Title="NetipTemplateBank"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="34ca1745-0b6b-415a-8287-ae252f59182c"
+        ClientSideComponentProperties="">
+    </CustomAction>
+</Elements>

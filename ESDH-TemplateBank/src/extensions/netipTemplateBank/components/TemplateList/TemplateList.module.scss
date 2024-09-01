@@ -1,0 +1,34 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.templateList {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-color: $ms-color-neutralTertiaryAlt;
+}
+
+.disabled {
+    &:hover * {
+        cursor: default !important;
+        text-decoration: none !important;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 48px 40px auto;
+    grid-template-rows: 40px;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: $ms-color-neutralLighter;
+    white-space: nowrap;
+
+    & > *:first-child {
+        justify-content: center;
+    }
+}
